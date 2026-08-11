@@ -1,0 +1,224 @@
+# ==========================================
+
+# Python
+
+# ==========================================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+
+# Environment Variables & Secrets
+
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ==========================================
+
+# Streamlit
+
+# ==========================================
+
+.streamlit/secrets.toml
+
+# ==========================================
+
+# Data / Database
+
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+data/scans/*
+data/history/*
+data/cache/*
+
+# Keep directory structure
+
+!data/scans/.gitkeep
+!data/history/.gitkeep
+!data/cache/.gitkeep
+
+# ==========================================
+
+# ML / Model Artifacts
+
+# ==========================================
+
+models_artifacts/*
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Keep directory
+
+!models_artifacts/.gitkeep
+
+# ==========================================
+
+# Logs
+
+# ==========================================
+
+*.log
+logs/
+*.log.*
+
+# ==========================================
+
+# Testing
+
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+
+# Type Checking / Linters
+
+# ==========================================
+
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# ==========================================
+
+# IDEs / Editors
+
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# VS Code local history
+
+.history/
+
+# ==========================================
+
+# OS Generated Files
+
+# ==========================================
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+
+*~
+
+# ==========================================
+
+# Build / Distribution
+
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+
+# Docker
+
+# ==========================================
+
+docker-compose.override.yml
+
+# ==========================================
+
+# Temporary Files
+
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# ==========================================
+
+# Jupyter
+
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+
+# Local Test Data
+
+# ==========================================
+
+test_data/
+demo_data/
+sample_storage/
+
+# ==========================================
+
+# Reports / Generated Output
+
+# ==========================================
+
+reports/
+generated_reports/
+
+# ==========================================
+
+# Coverage / Profiling
+
+# ==========================================
+
+.prof
+.profraw
+*.lprof
+
+```
+```
