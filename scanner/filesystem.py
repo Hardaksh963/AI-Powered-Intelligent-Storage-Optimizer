@@ -1,6 +1,25 @@
 from pathlib import Path
 from typing import List
+import os
+import sys
 
+PROJECT_ROOT = os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))
+)
+
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+EXCLUDED_DIRECTORIES = {
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "node_modules",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".idea",
+    ".vscode",
+}
 from models.file_model import FileRecord
 from scanner.metadata import get_file_metadata
 from scanner.hashing import calculate_sha256
@@ -85,12 +104,17 @@ class FileSystemScanner:
 
         return records
 
-    def _walk_directory(
-        self,
-        root: Path,
-    ):
+    def _walk_directory(self, root: Path):
 
         for path in root.rglob("*"):
 
-            if path.is_file():
-                yield path
+            if not path.is_file():
+                continue
+
+            if any(
+                part in EXCLUDED_DIRECTORIES
+                for part in path.parts
+            ):
+                continue
+
+            yield path
