@@ -55,14 +55,25 @@ def main():
 
     history_manager = HistoryManager()
 
-    history_manager.save_snapshot(
-        snapshot
-    )
+    # history_manager.save_snapshot(
+    #     snapshot
+    # )
 
     history = (
         history_manager.load_history()
     )
+    print(f"\nHistory Records: {len(history)}")
 
+    if history:
+        print(
+            f"First Snapshot: "
+            f"{history[0].total_storage / (1024**3):.2f} GB"
+        )
+
+        print(
+            f"Last Snapshot: "
+            f"{history[-1].total_storage / (1024**3):.2f} GB"
+        )
     analyzer = GrowthAnalyzer()
 
     daily_growth = (
@@ -83,36 +94,25 @@ def main():
             disk_capacity=500 * 1024**3
         )
     )
-
-    def what_if_cleanup(
-        self,
-        history,
-        storage_saved
-    ):
-
-        predictions = self.forecast(
-            history
-        )
-
-        return {
-            "30_days":
-                predictions["30_days"]
-                - storage_saved,
-
-            "60_days":
-                predictions["60_days"]
-                - storage_saved,
-
-            "90_days":
-                predictions["90_days"]
-                - storage_saved,
-        }
     
     print("\nSTORAGE FORECAST\n")
 
+    if not history:
+        print(
+            "\nNo historical data found."
+        )
+        print(
+            "Run generate_demo_history.py first."
+        )
+        return
+
+    current_storage = (
+        history[-1].total_storage
+    )
+
     print(
         f"Current Storage: "
-        f"{bytes_to_gb(snapshot.total_storage)} GB"
+        f"{bytes_to_gb(current_storage)} GB"
     )
 
     print(
