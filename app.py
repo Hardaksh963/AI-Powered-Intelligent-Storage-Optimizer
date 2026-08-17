@@ -12,14 +12,20 @@ st.title(
 
 st.markdown(
     """
-### Features
+## Intelligent Storage Management
+
+Features:
 
 - Storage Analysis
 - Duplicate Detection
 - Forecasting
 - AI Recommendations
-- Storage Assistant
+- Natural Language Assistant
 
 Use the sidebar to navigate.
 """
+)
+
+st.info(
+    "Select a page from the sidebar."
 )
