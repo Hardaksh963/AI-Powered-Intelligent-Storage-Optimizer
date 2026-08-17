@@ -1,6 +1,7 @@
 import os
 import sys
 from pathlib import Path
+import json
 
 PROJECT_ROOT = (
     Path(__file__)
@@ -57,6 +58,23 @@ def build_storage_summary():
             latest.total_files
     }
 
+def load_analysis():
+
+    analysis_file = Path(
+        "data/latest_analysis.json"
+    )
+
+    if not analysis_file.exists():
+
+        return {}
+
+    with open(
+        analysis_file,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return json.load(f)
 
 def main():
 
@@ -77,7 +95,7 @@ def main():
     forecast = (
         load_forecast()
     )
-
+    analysis = load_analysis()
     while True:
 
         query = input(
@@ -95,12 +113,11 @@ def main():
 
         try:
 
-            response = (
-                agent.answer_query(
-                    query=query,
-                    storage_summary=storage_summary,
-                    forecast=forecast
-                )
+            response = agent.answer_query(
+                query=query,
+                storage_summary=storage_summary,
+                forecast=forecast,
+                analysis=analysis
             )
 
             print(
