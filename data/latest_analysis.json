@@ -1,20 +1,15 @@
 {
   "statistics": {
-    "total_files": 72,
-    "total_size": 11288781,
+    "total_files": 76,
+    "total_size": 11293897,
     "categories": {
-      "other": 11228974,
-      "code": 59514,
+      "other": 11228987,
+      "code": 64617,
       "documents": 293
     }
   },
   "duplicates": [
     [
-      {
-        "name": "app.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\app.py",
-        "size_gb": 0.0
-      },
       {
         "name": "database.py",
         "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\database.py",
@@ -23,16 +18,6 @@
       {
         "name": "models.py",
         "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\models.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "assistant.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\assistant.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "dashboard.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\dashboard.py",
         "size_gb": 0.0
       },
       {
@@ -69,19 +54,22 @@
         "name": ".gitkeep",
         "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\scans\\.gitkeep",
         "size_gb": 0.0
+      },
+      {
+        "name": "charts.py",
+        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\charts.py",
+        "size_gb": 0.0
+      },
+      {
+        "name": "metrics.py",
+        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\metrics.py",
+        "size_gb": 0.0
       }
     ]
   ],
   "unused_files": [],
   "large_files": [],
   "recommendations": [
-    {
-      "file": "app.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\app.py",
-      "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
-    },
     {
       "file": "database.py",
       "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\database.py",
@@ -92,20 +80,6 @@
     {
       "file": "models.py",
       "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\models.py",
-      "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
-    },
-    {
-      "file": "assistant.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\assistant.py",
-      "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
-    },
-    {
-      "file": "dashboard.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\dashboard.py",
       "action": "REVIEW",
       "confidence": 35,
       "reason": "duplicate file"
@@ -160,6 +134,20 @@
       "reason": "duplicate file"
     },
     {
+      "file": "charts.py",
+      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\charts.py",
+      "action": "REVIEW",
+      "confidence": 35,
+      "reason": "duplicate file"
+    },
+    {
+      "file": "metrics.py",
+      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\metrics.py",
+      "action": "REVIEW",
+      "confidence": 35,
+      "reason": "duplicate file"
+    },
+    {
       "file": ".env",
       "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\.env",
       "action": "KEEP",
@@ -169,6 +157,13 @@
     {
       "file": ".gitignore",
       "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\.gitignore",
+      "action": "KEEP",
+      "confidence": 0,
+      "reason": "normal usage pattern"
+    },
+    {
+      "file": "app.py",
+      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\app.py",
       "action": "KEEP",
       "confidence": 0,
       "reason": "normal usage pattern"
