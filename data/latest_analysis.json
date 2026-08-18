@@ -1,421 +1,182 @@
 {
   "statistics": {
-    "total_files": 76,
-    "total_size": 11293897,
+    "total_files": 14,
+    "total_size": 160473976,
     "categories": {
-      "other": 11228987,
-      "code": 64617,
-      "documents": 293
+      "other": 43693173,
+      "archives": 116780803
     }
   },
-  "duplicates": [
-    [
-      {
-        "name": "database.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\database.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "models.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\models.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "duplicate_tool.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\duplicate_tool.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "prediction_tool.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\prediction_tool.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "recommendation_tool.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\recommendation_tool.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "scan_tool.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\scan_tool.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": ".gitkeep",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\cache\\.gitkeep",
-        "size_gb": 0.0
-      },
-      {
-        "name": ".gitkeep",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\history\\.gitkeep",
-        "size_gb": 0.0
-      },
-      {
-        "name": ".gitkeep",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\scans\\.gitkeep",
-        "size_gb": 0.0
-      },
-      {
-        "name": "charts.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\charts.py",
-        "size_gb": 0.0
-      },
-      {
-        "name": "metrics.py",
-        "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\metrics.py",
-        "size_gb": 0.0
-      }
-    ]
+  "duplicates": [],
+  "unused_files": [
+    {
+      "name": "AUTHORS",
+      "path": "D:\\Games\\Emulator\\AUTHORS",
+      "size_gb": 0.0
+    },
+    {
+      "name": "ChangeLog",
+      "path": "D:\\Games\\Emulator\\ChangeLog",
+      "size_gb": 0.0
+    },
+    {
+      "name": "COPYING",
+      "path": "D:\\Games\\Emulator\\COPYING",
+      "size_gb": 0.0
+    },
+    {
+      "name": "desmume-0.9.13-win64.zip",
+      "path": "D:\\Games\\Emulator\\desmume-0.9.13-win64.zip",
+      "size_gb": 0.01
+    },
+    {
+      "name": "desmume.ddb",
+      "path": "D:\\Games\\Emulator\\desmume.ddb",
+      "size_gb": 0.0
+    },
+    {
+      "name": "desmume.ini",
+      "path": "D:\\Games\\Emulator\\desmume.ini",
+      "size_gb": 0.0
+    },
+    {
+      "name": "README",
+      "path": "D:\\Games\\Emulator\\README",
+      "size_gb": 0.0
+    },
+    {
+      "name": "README.WIN",
+      "path": "D:\\Games\\Emulator\\README.WIN",
+      "size_gb": 0.0
+    },
+    {
+      "name": "Mega Delta Spanish (v2.2).dsv",
+      "path": "D:\\Games\\Emulator\\Battery\\Mega Delta Spanish (v2.2).dsv",
+      "size_gb": 0.0
+    },
+    {
+      "name": "Pokemon - Black Version (USA, Europe) (NDSi Enhanced).dsv",
+      "path": "D:\\Games\\Emulator\\Battery\\Pokemon - Black Version (USA, Europe) (NDSi Enhanced).dsv",
+      "size_gb": 0.0
+    },
+    {
+      "name": "Pokemon Mega Delta (v2.2).dsv",
+      "path": "D:\\Games\\Emulator\\Battery\\Pokemon Mega Delta (v2.2).dsv",
+      "size_gb": 0.0
+    },
+    {
+      "name": "Pokemon_ Black Version.zip",
+      "path": "D:\\Games\\Emulator\\Roms\\Pokemon_ Black Version.zip",
+      "size_gb": 0.1
+    },
+    {
+      "name": "Pokemon - Black Version (USA, Europe) (NDSi Enhanced).ds1",
+      "path": "D:\\Games\\Emulator\\StateSlots\\Pokemon - Black Version (USA, Europe) (NDSi Enhanced).ds1",
+      "size_gb": 0.0
+    }
   ],
-  "unused_files": [],
-  "large_files": [],
+  "large_files": [
+    {
+      "name": "Pokemon_ Black Version.zip",
+      "path": "D:\\Games\\Emulator\\Roms\\Pokemon_ Black Version.zip",
+      "size_gb": 0.1
+    }
+  ],
   "recommendations": [
     {
-      "file": "database.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\database.py",
+      "file": "AUTHORS",
+      "path": "D:\\Games\\Emulator\\AUTHORS",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "models.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\database\\models.py",
+      "file": "ChangeLog",
+      "path": "D:\\Games\\Emulator\\ChangeLog",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "duplicate_tool.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\duplicate_tool.py",
+      "file": "COPYING",
+      "path": "D:\\Games\\Emulator\\COPYING",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "prediction_tool.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\prediction_tool.py",
+      "file": "README",
+      "path": "D:\\Games\\Emulator\\README",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "recommendation_tool.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\recommendation_tool.py",
+      "file": "README.WIN",
+      "path": "D:\\Games\\Emulator\\README.WIN",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "scan_tool.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools\\scan_tool.py",
+      "file": "Mega Delta Spanish (v2.2).dsv",
+      "path": "D:\\Games\\Emulator\\Battery\\Mega Delta Spanish (v2.2).dsv",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "normal usage pattern"
     },
     {
-      "file": ".gitkeep",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\cache\\.gitkeep",
+      "file": "Pokemon_ Black Version.zip",
+      "path": "D:\\Games\\Emulator\\Roms\\Pokemon_ Black Version.zip",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 30,
+      "reason": "large file"
     },
     {
-      "file": ".gitkeep",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\history\\.gitkeep",
+      "file": "desmume-0.9.13-win64.zip",
+      "path": "D:\\Games\\Emulator\\desmume-0.9.13-win64.zip",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 20,
+      "reason": "normal usage pattern"
     },
     {
-      "file": ".gitkeep",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\scans\\.gitkeep",
+      "file": "desmume.ddb",
+      "path": "D:\\Games\\Emulator\\desmume.ddb",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 20,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "charts.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\charts.py",
+      "file": "desmume.ini",
+      "path": "D:\\Games\\Emulator\\desmume.ini",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
+      "confidence": 20,
+      "reason": "normal usage pattern"
     },
     {
-      "file": "metrics.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\ui\\components\\metrics.py",
+      "file": "Pokemon - Black Version (USA, Europe) (NDSi Enhanced).dsv",
+      "path": "D:\\Games\\Emulator\\Battery\\Pokemon - Black Version (USA, Europe) (NDSi Enhanced).dsv",
       "action": "REVIEW",
-      "confidence": 35,
-      "reason": "duplicate file"
-    },
-    {
-      "file": ".env",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\.env",
-      "action": "KEEP",
-      "confidence": 0,
+      "confidence": 20,
       "reason": "normal usage pattern"
     },
     {
-      "file": ".gitignore",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\.gitignore",
-      "action": "KEEP",
-      "confidence": 0,
+      "file": "Pokemon Mega Delta (v2.2).dsv",
+      "path": "D:\\Games\\Emulator\\Battery\\Pokemon Mega Delta (v2.2).dsv",
+      "action": "REVIEW",
+      "confidence": 20,
       "reason": "normal usage pattern"
     },
     {
-      "file": "app.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\app.py",
-      "action": "KEEP",
-      "confidence": 0,
+      "file": "Pokemon - Black Version (USA, Europe) (NDSi Enhanced).ds1",
+      "path": "D:\\Games\\Emulator\\StateSlots\\Pokemon - Black Version (USA, Europe) (NDSi Enhanced).ds1",
+      "action": "REVIEW",
+      "confidence": 20,
       "reason": "normal usage pattern"
     },
     {
-      "file": "README.md",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\README.md",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "requirements.txt",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\requirements.txt",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "memory.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\memory.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "prompts.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\prompts.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "query_router.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\query_router.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "state.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\state.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "storage_agent.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\storage_agent.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "tools.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\agent\\tools.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "development_artifact_detector.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\development_artifact_detector.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "duplicate_detector.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\duplicate_detector.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "large_file_detector.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\large_file_detector.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "storage_analyzer.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\storage_analyzer.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "storage_statistics.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\storage_statistics.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "unused_detector.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\unused_detector.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "__init__.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\analyzer\\__init__.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "settings.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\config\\settings.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "latest_analysis.json",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\data\\latest_analysis.json",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "importance_scorer.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\intelligence\\importance_scorer.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "report_generator.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\intelligence\\report_generator.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "risk_assessor.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\intelligence\\risk_assessor.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "storage_insights.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\intelligence\\storage_insights.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "__init__.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\intelligence\\__init__.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "nvidia_client.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\llm\\nvidia_client.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "file_model.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\models\\file_model.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "recommendation_model.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\models\\recommendation_model.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "storage_snapshot.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\models\\storage_snapshot.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "__init__.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\models\\__init__.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "growth_analyzer.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\predictor\\growth_analyzer.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "history_manager.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\predictor\\history_manager.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "snapshot_manager.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\predictor\\snapshot_manager.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "storage_forecaster.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\predictor\\storage_forecaster.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "what_if_simulator.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\predictor\\what_if_simulator.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "__init__.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\predictor\\__init__.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "action_planner.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\recommender\\action_planner.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "archive_recommender.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\recommender\\archive_recommender.py",
-      "action": "KEEP",
-      "confidence": 0,
-      "reason": "normal usage pattern"
-    },
-    {
-      "file": "recommendation_engine.py",
-      "path": "D:\\d drive-copy\\coding programs\\PROJECT\\Storage Optimizer\\recommender\\recommendation_engine.py",
+      "file": "DeSmuME_0.9.13_x64.exe",
+      "path": "D:\\Games\\Emulator\\DeSmuME_0.9.13_x64.exe",
       "action": "KEEP",
       "confidence": 0,
       "reason": "normal usage pattern"

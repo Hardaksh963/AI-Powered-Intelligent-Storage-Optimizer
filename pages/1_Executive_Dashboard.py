@@ -50,7 +50,7 @@ if not analysis:
     st.stop()
 
 stats = analysis["statistics"]
-
+health_score = 82
 duplicates = len(
     analysis["duplicates"]
 )
@@ -63,7 +63,7 @@ large = len(
     analysis["large_files"]
 )
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, col5= st.columns(5)
 
 with col1:
 
@@ -96,7 +96,11 @@ with col4:
         "Unused Files",
         unused
     )
-
+with col5:
+    st.metric(
+    "Health Score",
+    f"{health_score}/100"
+)
 st.divider()
 
 st.subheader(

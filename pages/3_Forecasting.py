@@ -9,6 +9,8 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 import streamlit as st
+import pandas as pd
+import plotly.express as px
 
 from predictor.history_manager import (
     HistoryManager
@@ -64,14 +66,34 @@ with col3:
         f"{forecast['90_days']/(1024**3):.2f} GB"
     )
 
-chart_data = [
+chart_data = pd.DataFrame(
+    {
+        "Day":
+        list(
+            range(
+                len(history)
+            )
+        ),
 
-    item.total_storage /
-    (1024 ** 3)
+        "Storage":
+        [
+            item.total_storage
+            /
+            (1024**3)
 
-    for item in history
-]
+            for item in history
+        ]
+    }
+)
 
-st.line_chart(
-    chart_data
+fig = px.line(
+    chart_data,
+    x="Day",
+    y="Storage",
+    title="Storage Growth"
+)
+
+st.plotly_chart(
+    fig,
+    use_container_width=True
 )

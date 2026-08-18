@@ -12,7 +12,7 @@ import json
 
 import pandas as pd
 import streamlit as st
-
+import plotly.express as px
 
 st.title(
     "📁 Analytics"
@@ -78,3 +78,32 @@ with tabs[3]:
         ),
         use_container_width=True
     )
+
+
+stats = analysis["statistics"]
+
+categories = []
+
+for name, size in stats[
+    "categories"
+].items():
+
+    categories.append(
+        {
+            "Category": name,
+            "SizeMB":
+                size / (1024 * 1024)
+        }
+    )
+
+fig = px.pie(
+    categories,
+    names="Category",
+    values="SizeMB",
+    title="Storage Distribution"
+)
+
+st.plotly_chart(
+    fig,
+    use_container_width=True
+)
